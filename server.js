@@ -7,6 +7,6 @@ app.get("/image", (req, res) => {
   res.redirect("/image.jpg");
 });
 
-app.listen(3000, () => {
+app.listen(3000, "127.0.0.1", () => {
   console.log("🚀 Server running on http://localhost:3000");
 });
